@@ -14,6 +14,10 @@ Pathtracing quality is the number of launched rays per pixel, lower value = lowe
 
 Building the project
 ====================
+Builds on GNU/Linux
+
+Should be buildable on OSX after some changes regarding X11
+
 Dependencies :
 - build-essential
 - libx11-dev 
@@ -23,3 +27,9 @@ Dependencies :
 Building the project :
 - `cd minilibx && make`
 - `cd .. && make`
+
+Examples
+========
+- `./rt raytrace scenes/raytracer/file2.rt` (raytracing)
+- `./rt pathtrace scenes/pathtracer/ambiant2.rt 1` (low quality pathtracing)
+- `./rt pathtrace scenes/pathtracer/ambiant2.rt 1000` (high quality pathtracing)
