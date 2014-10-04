@@ -8,7 +8,7 @@ You can lauch a render, with this syntax :
 
 `./rt raytrace|pathtrace scene_filename [pathtracing quality]`
 
-Scenes are located in the scene directory
+Scenes are located in the scenes directory, use scenes located in the pathtracer and raytracer directories with the matches rendering methods
 
 Pathtracing quality is the number of launched rays per pixel, lower value = lower quality but faster rendering
 
