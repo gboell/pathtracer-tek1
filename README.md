@@ -21,4 +21,5 @@ Dependencies :
 - libxtst-dev 
 
 Building the project :
-- `make`
+- `cd minilibx && make`
+- `cd .. && make`
